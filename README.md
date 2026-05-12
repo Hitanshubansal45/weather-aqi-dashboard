@@ -2,11 +2,11 @@
 
 A real-time end-to-end data pipeline that fetches weather and air quality data for 5 Indian cities every 10 minutes and visualizes it in Power BI. Built with serverless architecture on Azure Functions, PostgreSQL on Supabase, and Power BI Desktop.
 
-![Dashboard Preview](dashboard-screenshots/chandigarh.png)
+![Dashboard Preview](live-weather-dashboard/dashboard-screenshots/chandigarh.png)
 
 ## Architecture
 
-![Architecture](architecture.png)
+![Architecture](live-weather-dashboard/architecture.png)
 
 Data flows from three weather APIs through a Python Azure Function (timer-triggered every 10 minutes) into a Supabase PostgreSQL database. Power BI Desktop connects to the database via REST API and renders the interactive dashboard with multi-city slicer support.
 
