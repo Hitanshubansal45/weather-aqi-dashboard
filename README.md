@@ -111,13 +111,6 @@ live-weather-dashboard/
 - **Inaccurate Indian AQI** — replaced OpenWeather AQI (European scale) with WAQI station-specific data (CPCB)
 - **Cached old data in Power BI** — added `limit=1` parameter to URLs and DateTime type casting
 
-## Roadmap
-
-- [ ] Deploy to Power BI Service for live public URL
-- [ ] Add city comparison view (side-by-side metrics)
-- [ ] Historical trend analysis (7-day, 30-day views)
-- [ ] Email alerts for severe AQI conditions
-- [ ] Mobile-responsive layout
 
 ## License
 
